@@ -1,0 +1,99 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.03506",
+   "Default View_TopLeft":"-490,2",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port C0_DDR4_S_AXI -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port C2_DDR4_S_AXI -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port C3_DDR4_S_AXI -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port C0_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port C2_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port C3_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port C0_SYS_CLK -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port C2_SYS_CLK -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port C3_SYS_CLK -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port c0_ddr4 -pg 1 -lvl 2 -x 580 -y 100 -defaultsOSRD
+preplace port c2_ddr4 -pg 1 -lvl 2 -x 580 -y 350 -defaultsOSRD
+preplace port c3_ddr4 -pg 1 -lvl 2 -x 580 -y 600 -defaultsOSRD
+preplace port C2_XSDB_S_AXIL -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port C3_XSDB_S_AXIL -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port C0_XSDB_S_AXIL -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port c0_init_calib_complete -pg 1 -lvl 2 -x 580 -y 120 -defaultsOSRD
+preplace port c2_init_calib_complete -pg 1 -lvl 2 -x 580 -y 370 -defaultsOSRD
+preplace port c3_init_calib_complete -pg 1 -lvl 2 -x 580 -y 620 -defaultsOSRD
+preplace port sys_rst_ddr_0 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port sys_rst_ddr_2 -pg 1 -lvl 0 -x 0 -y 390 -defaultsOSRD
+preplace port sys_rst_ddr_3 -pg 1 -lvl 0 -x 0 -y 640 -defaultsOSRD
+preplace port c2_ddr4_ui_clk -pg 1 -lvl 2 -x 580 -y 390 -defaultsOSRD
+preplace port c2_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x 0 -y 410 -defaultsOSRD
+preplace port c2_ddr4_app_sref_req -pg 1 -lvl 0 -x 0 -y 430 -defaultsOSRD
+preplace port c2_ddr4_app_xsdb_select -pg 1 -lvl 0 -x 0 -y 450 -defaultsOSRD
+preplace port c2_ddr4_app_restore_complete -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace port c3_ddr4_app_sref_ack -pg 1 -lvl 2 -x 580 -y 680 -defaultsOSRD
+preplace port c3_ddr4_ui_clk -pg 1 -lvl 2 -x 580 -y 640 -defaultsOSRD
+preplace port c3_ddr4_app_restore_complete -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace port c3_ddr4_app_xsdb_select -pg 1 -lvl 0 -x 0 -y 700 -defaultsOSRD
+preplace port c3_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x 0 -y 660 -defaultsOSRD
+preplace port c3_ddr4_app_sref_req -pg 1 -lvl 0 -x 0 -y 680 -defaultsOSRD
+preplace port c0_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port c0_ddr4_app_restore_complete -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port c0_ddr4_app_sref_req -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port c0_ddr4_app_xsdb_select -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port c0_ddr4_app_sref_ack -pg 1 -lvl 2 -x 580 -y 180 -defaultsOSRD
+preplace port c0_ddr4_ui_clk -pg 1 -lvl 2 -x 580 -y 140 -defaultsOSRD
+preplace port c2_ddr4_app_sref_ack -pg 1 -lvl 2 -x 580 -y 430 -defaultsOSRD
+preplace portBus c2_peripheral_aresetn -pg 1 -lvl 2 -x 580 -y 410 -defaultsOSRD
+preplace portBus c3_peripheral_aresetn -pg 1 -lvl 2 -x 580 -y 660 -defaultsOSRD
+preplace portBus c0_peripheral_aresetn -pg 1 -lvl 2 -x 580 -y 160 -defaultsOSRD
+preplace inst PR_DDR4_MIG_2 -pg 1 -lvl 1 -x 290 -y 390 -defaultsOSRD
+preplace inst PR_DDR4_MIG_3 -pg 1 -lvl 1 -x 290 -y 640 -defaultsOSRD
+preplace inst PR_DDR4_MIG_0 -pg 1 -lvl 1 -x 290 -y 140 -defaultsOSRD
+preplace netloc PR_DDR4_MIG_2_c0_init_calib_complete_1 1 1 1 NJ 370
+preplace netloc sys_rst_0_1 1 0 1 NJ 140
+preplace netloc sys_rst_0_2 1 0 1 NJ 390
+preplace netloc sys_rst_0_3 1 0 1 NJ 640
+preplace netloc PR_DDR4_MIG_2_c0_ddr4_ui_clk 1 1 1 NJ 390
+preplace netloc PR_DDR4_MIG_2_peripheral_aresetn 1 1 1 NJ 410
+preplace netloc c0_ddr4_app_mem_init_skip_0_1 1 0 1 NJ 410
+preplace netloc c0_ddr4_app_sref_req_0_1 1 0 1 NJ 430
+preplace netloc c0_ddr4_app_xsdb_select_0_1 1 0 1 NJ 450
+preplace netloc c0_ddr4_app_restore_complete_0_1 1 0 1 NJ 470
+preplace netloc PR_DDR4_MIG_2_c0_ddr4_app_sref_ack_0 1 1 1 NJ 430
+preplace netloc PR_DDR4_MIG_3_c2_init_calib_complete 1 1 1 NJ 620
+preplace netloc PR_DDR4_MIG_3_peripheral_aresetn 1 1 1 NJ 660
+preplace netloc PR_DDR4_MIG_3_DDR_SREF_CTRL_SREF_ACK 1 1 1 NJ 680
+preplace netloc PR_DDR4_MIG_3_c0_ddr4_ui_clk 1 1 1 NJ 640
+preplace netloc c2_ddr4_app_sref_req2_1 1 0 1 NJ 680
+preplace netloc c2_ddr4_app_restore_complete1_1 1 0 1 NJ 720
+preplace netloc c2_ddr4_app_xsdb_select2_1 1 0 1 NJ 700
+preplace netloc c2_ddr4_app_mem_init_skip2_1 1 0 1 NJ 660
+preplace netloc PR_DDR4_MIG_0_c2_init_calib_complete 1 1 1 NJ 120
+preplace netloc c3_ddr4_app_mem_init_skip1_1 1 0 1 NJ 160
+preplace netloc c3_ddr4_app_sref_req1_1 1 0 1 NJ 180
+preplace netloc c3_ddr4_app_xsdb_select1_1 1 0 1 NJ 200
+preplace netloc c3_ddr4_app_restore_complete1_1 1 0 1 NJ 220
+preplace netloc PR_DDR4_MIG_0_c0_ddr4_ui_clk 1 1 1 NJ 140
+preplace netloc PR_DDR4_MIG_0_DDR_SREF_CTRL_SREF_ACK 1 1 1 NJ 180
+preplace netloc PR_DDR4_MIG_0_peripheral_aresetn 1 1 1 NJ 160
+preplace netloc Conn1 1 0 1 NJ 370
+preplace netloc C0_DDR4_S_AXI1_1 1 0 1 NJ 330
+preplace netloc C0_DDR4_S_AXI_CTRL1_1 1 0 1 NJ 350
+preplace netloc C0_SYS_CLK_0_1 1 0 1 NJ 310
+preplace netloc ddr4_2_C0_DDR4 1 1 1 NJ 350
+preplace netloc C3_S_AXI_1 1 0 1 NJ 620
+preplace netloc PR_DDR4_MIG_3_c2_ddr4 1 1 1 NJ 600
+preplace netloc C3_SYS_CLK_1 1 0 1 NJ 560
+preplace netloc C0_DDR4_S_AXI2_1 1 0 1 NJ 580
+preplace netloc C0_DDR4_S_AXI_CTRL2_1 1 0 1 NJ 600
+preplace netloc PR_DDR4_MIG_0_c2_ddr4 1 1 1 NJ 100
+preplace netloc C0_SYS_CLK_1 1 0 1 NJ 60
+preplace netloc C0_DDR4_S_AXI_1 1 0 1 NJ 80
+preplace netloc C0_DDR4_S_AXI_CTRL_1 1 0 1 NJ 100
+preplace netloc C0_S_AXI_1 1 0 1 NJ 120
+levelinfo -pg 1 0 290 580
+pagesize -pg 1 -db -bbox -sgen -280 0 830 770
+"
+}
+

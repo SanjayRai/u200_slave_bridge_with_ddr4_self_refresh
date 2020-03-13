@@ -1,0 +1,11 @@
+rm -rf bitfiles/*
+rm -rf checkpoints/*
+rm -rf reports/*
+rm -rf dynamic_region_cdma.*
+rm -rf hd_visual/
+rm -rf shell.*
+rm shell_checkpoints/*
+rm -rf .Xil/
+rm vivado*.jou
+rm vivado*.log
+

@@ -1,0 +1,5 @@
+pushd .
+cd ~sanjayr/projects/UDMABUF/udmabuf
+sudo insmod udmabuf.ko udmabuf0=1048576
+sudo setpci -s 01:00.0 COMMAND=07
+popd

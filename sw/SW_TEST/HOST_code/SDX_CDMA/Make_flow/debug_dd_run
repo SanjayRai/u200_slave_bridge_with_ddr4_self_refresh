@@ -1,0 +1,5 @@
+#source load_UDMABUF
+#rm -rf mig_temp_test.txt 
+#rm -rf mig_temp_test_rd.txt 
+ddd --args ./passthru.dbg_hw df000000 ../../../bitfile/VU9P_AXI_ICAP_PR_DESIGN_top.dynamic_region_cdma_pblock_dynamic_region_partial.bin 
+#rmmod udmabuf

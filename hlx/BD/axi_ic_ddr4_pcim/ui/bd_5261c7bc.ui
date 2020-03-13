@@ -1,0 +1,32 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.04",
+   "Default View_TopLeft":"-203,-37",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXI_MM -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace port M_AXI_MM_MIG0 -pg 1 -lvl 3 -x 710 -y 150 -defaultsOSRD
+preplace port M_AXI_MM_MIG -pg 1 -lvl 3 -x 710 -y 170 -defaultsOSRD
+preplace port M_AXI_MM_MIG2 -pg 1 -lvl 3 -x 710 -y 190 -defaultsOSRD
+preplace port M_AXI_MM_MIG3 -pg 1 -lvl 3 -x 710 -y 210 -defaultsOSRD
+preplace port M_AXI_MM_PCIM -pg 1 -lvl 3 -x 710 -y 230 -defaultsOSRD
+preplace port AXI_RESET_N -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port CLK_IN_250 -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 190 -y 150 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 540 -y 190 -defaultsOSRD
+preplace netloc AXI_RESET_N_1 1 0 1 NJ 130
+preplace netloc CLK_IN_250_1 1 0 2 10 40 380
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 1 360 90n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 1 370 130n
+preplace netloc axi_interconnect_0_M03_AXI 1 2 1 NJ 210
+preplace netloc axi_interconnect_0_M04_AXI 1 2 1 NJ 230
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 NJ 150
+preplace netloc axi_interconnect_0_M02_AXI 1 2 1 NJ 190
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 NJ 170
+preplace netloc AXI_MASTER_0_1 1 0 2 NJ 50 NJ
+levelinfo -pg 1 -10 190 540 710
+pagesize -pg 1 -db -bbox -sgen -140 -10 860 390
+"
+}
+0

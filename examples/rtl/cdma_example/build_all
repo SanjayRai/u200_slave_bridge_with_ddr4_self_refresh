@@ -1,0 +1,4 @@
+./mk_clean_all 
+vivado -mode batch -source vivado_batch.tcl -tclargs -design_name dynamic_region_cdma -num_jobs 4 -build_mode SHELL
+sleep 1m
+vivado -mode batch -source vivado_batch.tcl -tclargs -design_name dynamic_region_cdma -num_jobs 4 -build_mode IMPL

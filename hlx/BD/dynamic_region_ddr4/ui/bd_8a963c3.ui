@@ -1,0 +1,58 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.934394",
+   "Default View_TopLeft":"352,313",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port C2_SYS_CLK -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -10 -y 480 -defaultsOSRD
+preplace port S_AXI_LITE -pg 1 -lvl 0 -x -10 -y 460 -defaultsOSRD
+preplace port c2_ddr4 -pg 1 -lvl 4 -x 1450 -y 460 -defaultsOSRD
+preplace port S_XSDB_AXIL -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port c2_init_calib_complete -pg 1 -lvl 4 -x 1450 -y 1040 -defaultsOSRD
+preplace port sys_rst_ddr_2 -pg 1 -lvl 0 -x -10 -y 300 -defaultsOSRD
+preplace port c0_ddr4_ui_clk -pg 1 -lvl 4 -x 1450 -y 1020 -defaultsOSRD
+preplace port DDR_SREF_CTRL_MEM_INIT_SKIP -pg 1 -lvl 0 -x -10 -y 360 -defaultsOSRD
+preplace port DDR_SREF_CTRL_SREF_REQ -pg 1 -lvl 0 -x -10 -y 320 -defaultsOSRD
+preplace port DDR_SREF_CTRL_XSDB_SEL -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port AAR_SREF_CTRL_APP_RESTORE_COMPLETE -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port DDR_SREF_CTRL_SREF_ACK -pg 1 -lvl 4 -x 1450 -y 1000 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -lvl 4 -x 1450 -y 1060 -defaultsOSRD
+preplace inst myip_AXIL_TO_XSDB_v1_0 -pg 1 -lvl 1 -x 280 -y 100 -defaultsOSRD
+preplace inst proc_sys_reset_MIG_B -pg 1 -lvl 2 -x 880 -y 860 -defaultsOSRD
+preplace inst sref_init_restore_sy_0 -pg 1 -lvl 1 -x 280 -y 340 -defaultsOSRD
+preplace inst ddr4_2 -pg 1 -lvl 2 -x 880 -y 570 -defaultsOSRD
+preplace inst PR_SREF_ILA -pg 1 -lvl 3 -x 1330 -y 840 -defaultsOSRD
+preplace inst XSDB_RAW_ILA -pg 1 -lvl 3 -x 1330 -y 170 -defaultsOSRD
+preplace netloc ddr4_2_c0_ddr4_ui_clk 1 0 4 20 490 620 360 1230 680 1430J
+preplace netloc ddr4_2_c0_ddr4_ui_clk_sync_rst 1 0 3 40 600 510 990 1130
+preplace netloc ddr4_2_c0_init_calib_complete 1 0 4 50 470 560J 380 1170 1040 NJ
+preplace netloc proc_sys_reset_MIG_B_peripheral_aresetn 1 0 4 30 590 520 1000 1120 1060 NJ
+preplace netloc ddr4_2_c0_ddr4_app_xsdb_rdy 1 0 3 50 200 NJ 200 1200
+preplace netloc myip_AXIL_TO_XSDB_v1_0_XSDB_addr 1 1 2 630 130 N
+preplace netloc myip_AXIL_TO_XSDB_v1_0_XSDB_wr_en 1 1 2 610 170 N
+preplace netloc myip_AXIL_TO_XSDB_v1_0_XSDB_rd_en 1 1 2 600 190 N
+preplace netloc ddr4_2_c0_ddr4_app_xsdb_rd_data 1 0 3 10 210 NJ 210 1140
+preplace netloc myip_AXIL_TO_XSDB_v1_0_XSDB_wr_data 1 1 2 590 150 N
+preplace netloc c0_ddr4_app_xsdb_select_0_1 1 0 3 NJ 580 560 960 1180J
+preplace netloc ddr4_2_c0_ddr4_app_sref_ack1 1 2 2 1150 1000 NJ
+preplace netloc sref_init_restore_sy_0_c0_ddr4_app_restore_en 1 1 2 570 350 1220
+preplace netloc sref_init_restore_sy_0_c0_ddr4_app_restore_complete 1 1 2 540 760 1160
+preplace netloc sref_init_restore_sy_0_c0_ddr4_app_mem_init_skip 1 1 2 530 980 1190
+preplace netloc sref_init_restore_sy_0_c0_ddr4_app_sref_req 1 1 2 580 370 1210
+preplace netloc DDR_SREF_CTRL_SREF_REQ_1 1 0 1 NJ 320
+preplace netloc AAR_SREF_CTRL_APP_RESTORE_COMPLETE_1 1 0 1 NJ 340
+preplace netloc DDR_SREF_CTRL_MEM_INIT_SKIP_1 1 0 1 NJ 360
+preplace netloc ddr4_sync_sys_rst 1 1 2 550 970 1230
+preplace netloc sys_rst_ddr_2_1 1 0 1 NJ 300
+preplace netloc C0_SYS_CLK_0_1 1 0 2 NJ 220 640J
+preplace netloc ddr4_2_C0_DDR4 1 2 2 NJ 460 NJ
+preplace netloc S_AXI1_1 1 0 1 NJ 60
+preplace netloc S_AXI_1 1 0 2 NJ 480 NJ
+preplace netloc S_AXI_LITE_1 1 0 2 NJ 460 NJ
+levelinfo -pg 1 -10 280 880 1330 1450
+pagesize -pg 1 -db -bbox -sgen -370 0 1700 1080
+"
+}
+

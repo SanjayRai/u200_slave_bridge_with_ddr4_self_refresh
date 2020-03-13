@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="dynamic_region_ddr4" CanBeSetAsTop="true" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1584079264"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1584079264"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1584079264"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1584079264"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/dynamic_region_ddr4_proc_sys_reset_axi4lite_0/dynamic_region_ddr4_proc_sys_reset_axi4lite_0.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_axi4lite"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_0/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_0.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/myip_AXIL_TO_XSDB_v1_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_proc_sys_reset_MIG_B_1/dynamic_region_ddr4_proc_sys_reset_MIG_B_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/proc_sys_reset_MIG_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_sref_init_restore_sy_0_0/dynamic_region_ddr4_sref_init_restore_sy_0_0.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/sref_init_restore_sy_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_ddr4_2_1/dynamic_region_ddr4_ddr4_2_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/ddr4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_PR_SREF_ILA_0/dynamic_region_ddr4_PR_SREF_ILA_0.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/PR_SREF_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_XSDB_RAW_ILA_0/dynamic_region_ddr4_XSDB_RAW_ILA_0.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_2/XSDB_RAW_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_1/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/myip_AXIL_TO_XSDB_v1_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_proc_sys_reset_MIG_B_2/dynamic_region_ddr4_proc_sys_reset_MIG_B_2.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/proc_sys_reset_MIG_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_sref_init_restore_sy_0_1/dynamic_region_ddr4_sref_init_restore_sy_0_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/sref_init_restore_sy_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_PR_SREF_ILA_1/dynamic_region_ddr4_PR_SREF_ILA_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/PR_SREF_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_XSDB_RAW_ILA_1/dynamic_region_ddr4_XSDB_RAW_ILA_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/XSDB_RAW_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_ddr4_3_1/dynamic_region_ddr4_ddr4_3_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_3/ddr4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_2/dynamic_region_ddr4_myip_AXIL_TO_XSDB_v1_0_2.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/myip_AXIL_TO_XSDB_v1_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_proc_sys_reset_MIG_B_3/dynamic_region_ddr4_proc_sys_reset_MIG_B_3.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/proc_sys_reset_MIG_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_sref_init_restore_sy_0_2/dynamic_region_ddr4_sref_init_restore_sy_0_2.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/sref_init_restore_sy_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_PR_SREF_ILA_2/dynamic_region_ddr4_PR_SREF_ILA_2.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/PR_SREF_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_XSDB_RAW_ILA_2/dynamic_region_ddr4_XSDB_RAW_ILA_2.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/XSDB_RAW_ILA"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_ddr4_0_1/dynamic_region_ddr4_ddr4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="DDR_SUB_SYS/PR_DDR4_MIG_0/ddr4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axi_interconnect_0_0/dynamic_region_ddr4_axi_interconnect_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axi_interconnect_0_1/dynamic_region_ddr4_axi_interconnect_0_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C3"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axi_interconnect_1_0/dynamic_region_ddr4_axi_interconnect_1_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C2"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_xbar_0/dynamic_region_ddr4_xbar_0.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axi_interconnect_0_2/dynamic_region_ddr4_axi_interconnect_0_2.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_xbar_1/dynamic_region_ddr4_xbar_1.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C3/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axiLite_interconnect_C0_0/dynamic_region_ddr4_axiLite_interconnect_C0_0.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C3"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_xbar_2/dynamic_region_ddr4_xbar_2.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C2/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_axiLite_interconnect_C1_0/dynamic_region_ddr4_axiLite_interconnect_C1_0.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C2"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_s00_regslice_18/dynamic_region_ddr4_s00_regslice_18.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C0/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_0/dynamic_region_ddr4_auto_cc_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C0/s00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_s00_regslice_19/dynamic_region_ddr4_s00_regslice_19.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C3/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_1/dynamic_region_ddr4_auto_cc_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C3/s00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_s00_regslice_20/dynamic_region_ddr4_s00_regslice_20.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C2/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_2/dynamic_region_ddr4_auto_cc_2.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_C2/s00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_3/dynamic_region_ddr4_auto_cc_3.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C0/m00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_4/dynamic_region_ddr4_auto_cc_4.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C0/m01_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_5/dynamic_region_ddr4_auto_cc_5.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C3/m00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_6/dynamic_region_ddr4_auto_cc_6.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C3/m01_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_7/dynamic_region_ddr4_auto_cc_7.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C2/m00_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/dynamic_region_ddr4_auto_cc_8/dynamic_region_ddr4_auto_cc_8.xci" Type="IP">
+        <Instance HierarchyPath="axiLite_interconnect_C2/m01_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

@@ -1,0 +1,106 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.244792",
+   "Default View_TopLeft":"-1753,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port C0_SYS_CLK -pg 1 -lvl 0 -x -10 -y 1030 -defaultsOSRD
+preplace port C2_SYS_CLK -pg 1 -lvl 0 -x -10 -y 1050 -defaultsOSRD
+preplace port C3_SYS_CLK -pg 1 -lvl 0 -x -10 -y 1070 -defaultsOSRD
+preplace port c0_ddr4 -pg 1 -lvl 4 -x 1360 -y 1030 -defaultsOSRD
+preplace port c2_ddr4 -pg 1 -lvl 4 -x 1360 -y 1050 -defaultsOSRD
+preplace port c3_ddr4 -pg 1 -lvl 4 -x 1360 -y 1070 -defaultsOSRD
+preplace port S_AXI_MM_MIG0 -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port S_AXI_MM_MIG2 -pg 1 -lvl 0 -x -10 -y 840 -defaultsOSRD
+preplace port S_AXI_MM_MIG3 -pg 1 -lvl 0 -x -10 -y 1740 -defaultsOSRD
+preplace port MIG0_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port MIG2_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port MIG3_DDR4_S_AXI_CTRL -pg 1 -lvl 0 -x -10 -y 1450 -defaultsOSRD
+preplace port AXI_RESET_N -pg 1 -lvl 0 -x -10 -y 460 -defaultsOSRD
+preplace port CLK_IN_250 -pg 1 -lvl 0 -x -10 -y 380 -defaultsOSRD
+preplace port c0_init_calib_complete -pg 1 -lvl 4 -x 1360 -y 1090 -defaultsOSRD
+preplace port c2_init_calib_complete -pg 1 -lvl 4 -x 1360 -y 1110 -defaultsOSRD
+preplace port c3_init_calib_complete -pg 1 -lvl 4 -x 1360 -y 1130 -defaultsOSRD
+preplace port sys_rst_ddr_0 -pg 1 -lvl 0 -x -10 -y 1150 -defaultsOSRD
+preplace port sys_rst_ddr_2 -pg 1 -lvl 0 -x -10 -y 1170 -defaultsOSRD
+preplace port sys_rst_ddr_3 -pg 1 -lvl 0 -x -10 -y 1190 -defaultsOSRD
+preplace port c3_ddr4_app_restore_complete -pg 1 -lvl 0 -x -10 -y 1290 -defaultsOSRD
+preplace port c3_ddr4_app_sref_req -pg 1 -lvl 0 -x -10 -y 1350 -defaultsOSRD
+preplace port c0_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x -10 -y 1370 -defaultsOSRD
+preplace port c3_ddr4_app_xsdb_select -pg 1 -lvl 0 -x -10 -y 1310 -defaultsOSRD
+preplace port c3_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x -10 -y 1330 -defaultsOSRD
+preplace port c0_ddr4_app_restore_complete -pg 1 -lvl 0 -x -10 -y 1390 -defaultsOSRD
+preplace port c0_ddr4_app_sref_req -pg 1 -lvl 0 -x -10 -y 1410 -defaultsOSRD
+preplace port c2_ddr4_app_mem_init_skip -pg 1 -lvl 0 -x -10 -y 1210 -defaultsOSRD
+preplace port c2_ddr4_app_restore_complete -pg 1 -lvl 0 -x -10 -y 1270 -defaultsOSRD
+preplace port c2_ddr4_app_sref_req -pg 1 -lvl 0 -x -10 -y 1230 -defaultsOSRD
+preplace port c2_ddr4_app_xsdb_select -pg 1 -lvl 0 -x -10 -y 1250 -defaultsOSRD
+preplace port c0_ddr4_app_xsdb_select -pg 1 -lvl 0 -x -10 -y 1430 -defaultsOSRD
+preplace port c3_ddr4_app_sref_ack -pg 1 -lvl 4 -x 1360 -y 1210 -defaultsOSRD
+preplace port c2_ddr4_app_sref_ack -pg 1 -lvl 4 -x 1360 -y 1190 -defaultsOSRD
+preplace port c0_ddr4_app_sref_ack -pg 1 -lvl 4 -x 1360 -y 1270 -defaultsOSRD
+preplace inst proc_sys_reset_axi4lite -pg 1 -lvl 1 -x 200 -y 480 -defaultsOSRD
+preplace inst DDR_SUB_SYS -pg 1 -lvl 3 -x 1070 -y 1170 -defaultsOSRD
+preplace inst axi_interconnect_C0 -pg 1 -lvl 2 -x 580 -y 400 -defaultsOSRD
+preplace inst axi_interconnect_C3 -pg 1 -lvl 2 -x 580 -y 1800 -defaultsOSRD -resize 260 196
+preplace inst axi_interconnect_C2 -pg 1 -lvl 2 -x 580 -y 900 -defaultsOSRD -resize 260 196
+preplace inst axiLite_interconnect_C0 -pg 1 -lvl 2 -x 580 -y 140 -defaultsOSRD
+preplace inst axiLite_interconnect_C3 -pg 1 -lvl 2 -x 580 -y 1530 -defaultsOSRD -resize 260 236
+preplace inst axiLite_interconnect_C2 -pg 1 -lvl 2 -x 580 -y 660 -defaultsOSRD -resize 260 236
+preplace netloc AXI_RESET_N_2 1 0 1 NJ 460
+preplace netloc CLK_IN_250_1 1 0 2 10 380 380
+preplace netloc proc_sys_reset_axi4lite_peripheral_aresetn 1 1 1 390 100n
+preplace netloc DDR_SUB_SYS1_c0_init_calib_complete 1 3 1 NJ 1090
+preplace netloc DDR_SUB_SYS1_c2_init_calib_complete 1 3 1 NJ 1110
+preplace netloc DDR_SUB_SYS1_c3_init_calib_complete 1 3 1 NJ 1130
+preplace netloc sys_rst_ddr_0_1 1 0 3 NJ 1150 NJ 1150 NJ
+preplace netloc sys_rst_ddr_2_1 1 0 3 NJ 1170 NJ 1170 NJ
+preplace netloc sys_rst_ddr_3_1 1 0 3 NJ 1190 NJ 1190 NJ
+preplace netloc M00_ACLK_1 1 1 3 420 280 NJ 280 1340
+preplace netloc M00_ARESETN_1 1 1 3 400 1020 760J 1480 1300
+preplace netloc M00_ACLK_2 1 1 3 420 520 NJ 520 1330
+preplace netloc DDR_SUB_SYS1_c3_ddr4_ui_clk 1 1 3 410 1670 NJ 1670 1320
+preplace netloc M00_ARESETN_2 1 1 3 420 1680 NJ 1680 1310
+preplace netloc M00_ARESETN_3 1 1 3 410 1060 730J 1490 1330
+preplace netloc c3_ddr4_app_restore_complete_0_1 1 0 3 NJ 1290 NJ 1290 NJ
+preplace netloc c3_ddr4_app_sref_req_0_1 1 0 3 NJ 1350 NJ 1350 NJ
+preplace netloc c0_ddr4_app_mem_init_skip_0_1 1 0 3 NJ 1370 NJ 1370 NJ
+preplace netloc c3_ddr4_app_xsdb_select_0_1 1 0 3 NJ 1310 NJ 1310 NJ
+preplace netloc c3_ddr4_app_mem_init_skip_0_1 1 0 3 NJ 1330 NJ 1330 NJ
+preplace netloc c0_ddr4_app_restore_complete_0_1 1 0 3 NJ 1390 NJ 1390 NJ
+preplace netloc c0_ddr4_app_sref_req_0_1 1 0 3 20J 1380 NJ 1380 740J
+preplace netloc c2_ddr4_app_mem_init_skip_0_1 1 0 3 NJ 1210 NJ 1210 NJ
+preplace netloc c2_ddr4_app_restore_complete_0_1 1 0 3 NJ 1270 NJ 1270 NJ
+preplace netloc c2_ddr4_app_sref_req_0_1 1 0 3 NJ 1230 NJ 1230 NJ
+preplace netloc c2_ddr4_app_xsdb_select_0_1 1 0 3 NJ 1250 NJ 1250 NJ
+preplace netloc c0_ddr4_app_xsdb_select_0_1 1 0 3 10J 1320 NJ 1320 750J
+preplace netloc DDR_SUB_SYS_c3_ddr4_app_sref_ack 1 3 1 NJ 1210
+preplace netloc DDR_SUB_SYS_c2_ddr4_app_sref_ack 1 3 1 NJ 1190
+preplace netloc DDR_SUB_SYS_c0_ddr4_app_sref_ack 1 3 1 NJ 1270
+preplace netloc C2_SYS_CLK_1 1 0 3 NJ 1050 NJ 1050 NJ
+preplace netloc MIG0_DDR4_S_AXI_CTRL_1 1 0 2 NJ 60 NJ
+preplace netloc MIG3_DDR4_S_AXI_CTRL_1 1 0 2 NJ 1450 NJ
+preplace netloc C3_XSDB_S_AXIL_1 1 2 1 790 1110n
+preplace netloc S_AXI_MM_MIG3_1 1 0 2 NJ 1740 NJ
+preplace netloc axi_interconnect_C2_M00_AXI 1 2 1 800 900n
+preplace netloc axi_interconnect_C3_M00_AXI 1 2 1 780 950n
+preplace netloc S_AXI_MM_MIG2_1 1 0 2 NJ 840 NJ
+preplace netloc C0_SYS_CLK_1 1 0 3 NJ 1030 NJ 1030 NJ
+preplace netloc axiLite_interconnect_C2_M00_AXI 1 2 1 810 650n
+preplace netloc axiLite_interconnect_C2_M01_AXI 1 2 1 790 670n
+preplace netloc S_AXI_MM_MIG0_1 1 0 2 NJ 340 NJ
+preplace netloc MIG2_DDR4_S_AXI_CTRL_1 1 0 2 NJ 580 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 830 400n
+preplace netloc axiLite_interconnect_C3_M00_AXI 1 2 1 770 1010n
+preplace netloc DDR_SUB_SYS1_c3_ddr4 1 3 1 NJ 1070
+preplace netloc DDR_SUB_SYS1_c0_ddr4 1 3 1 NJ 1030
+preplace netloc DDR_SUB_SYS1_c2_ddr4 1 3 1 NJ 1050
+preplace netloc C0_DDR4_S_AXI_CTRL_1 1 2 1 840 130n
+preplace netloc axiLite_interconnect_C0_M01_AXI 1 2 1 820 150n
+preplace netloc C3_SYS_CLK_1 1 0 3 NJ 1070 NJ 1070 NJ
+levelinfo -pg 1 -10 200 580 1070 1360
+pagesize -pg 1 -db -bbox -sgen -290 0 1580 1920
+"
+}
+0

@@ -1,0 +1,4 @@
+pushd .
+cd ~sanjayr/projects/UDMABUF/udmabuf
+sudo insmod udmabuf.ko udmabuf0=1048576
+popd
